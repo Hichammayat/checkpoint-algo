@@ -1,0 +1,33 @@
+
+
+algorithm list
+text : ARRAY_OF INTEGER[a]
+a = 0 : integer
+b = 1 : integer
+c = 0 : integer
+i = 0 : integer
+BEGIN
+write("enter a sentence that end with ".")
+read(text)
+FOR i FROM 0 TO list.lenght-2 step 1 DO
+if(text[a] != " ")
+a = a+1
+ENDIF
+ENDFOR
+end
+
+BEGIN
+FOR i FROM 0 TO list.lenght-2 step 1 DO
+if(text[a] = " ")
+b = b+1
+ENDIF
+ENDFOR
+end
+
+BEGIN
+FOR i FROM 0 TO list.lenght-2 step 1 DO
+if(text[a] = a || text[a] = e || text[a] = i || text[a] = o || text[a] = u )
+c = c+1
+ENDIF
+ENDFOR
+end
